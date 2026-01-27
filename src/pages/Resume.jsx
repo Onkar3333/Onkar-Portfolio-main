@@ -80,7 +80,7 @@ export default function Resume() {
           >
             <strong style={{ color: "#00b4ff" }}>Professional Summary:</strong>
             <p style={{ marginTop: 6, color: "#ccc" }}>
-            Java Full Stack and Python developer specializing in scalable web applications. Skilled in React.js, Node.js, Laravel, Flask, SQL, MongoDB, REST API, Agile, debugging, testing, full SDLC.
+              Java Full Stack and Python developer specializing in scalable web applications. Skilled in React.js, Node.js, Laravel, Flask, SQL, MongoDB, REST API, Agile, debugging, testing, full SDLC.
             </p>
           </motion.div>
         </motion.div>
@@ -129,10 +129,13 @@ export default function Resume() {
         >
           <h4 style={{ fontSize: 20, color: "#00b4ff", marginBottom: 12 }}>💼 Projects</h4>
           <ul style={{ listStyle: "none", padding: 0, margin: 0, lineHeight: 1.8 }}>
-            <li>1️⃣ Breast Cancer Detection from Mammograms using YOLO & CNN</li>
-            <li>2️⃣ DocuChat: Document Q&A Chatbot (Gemini API)</li>
-            <li>3️⃣ Indian Sign Language Interpreter (In Progress)</li>
-            <li>4️⃣ Mental Health Analyzer</li>
+            <li>1️⃣ <strong>MindOS</strong>: AI-powered productivity & discipline OS for students.</li>
+            <li>2️⃣ <strong>KRISHIAI</strong>: Smart farming platform with crop advisory & disease detection.</li>
+            <li>3️⃣ <strong>PLANTCARE</strong>: AI plant health app with disease detection & community support.</li>
+            <li>4️⃣ <strong>HELPLINK</strong>: PWA connecting help seekers with volunteers (Blood donation, etc.).</li>
+            <li>5️⃣ <strong>AI Virtual Keyboard</strong>: Real-time gesture recognition using Mediapipe & TensorFlow.</li>
+            <li>6️⃣ <strong>DigiDiploma</strong>: AI-enabled learning platform for diploma students.</li>
+            <li>7️⃣ <strong>Portfolio Website</strong>: Responsive personal portfolio built with React & Framer Motion.</li>
           </ul>
         </motion.div>
 
