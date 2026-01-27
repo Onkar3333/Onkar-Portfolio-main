@@ -11,7 +11,8 @@ import Resume from './pages/Resume'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import NotFound from './pages/NotFound'
-import SkillNetwork from './pages/Skills'  
+import SkillNetwork from './pages/Skills'
+import Experience from './pages/Experience'
 
 export default function App() {
   return (
@@ -22,7 +23,8 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/experience" element={<Experience />} />
+          {/* <Route path="/gallery" element={<Gallery />} /> */}
           <Route path="/skills" element={<SkillNetwork />} />
           <Route path="/certificates" element={<Certificates />} />
           <Route path="/blog" element={<Blog />} />

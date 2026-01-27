@@ -4,61 +4,93 @@ import { Github, ExternalLink } from 'lucide-react'
 
 const PROJECTS = [
   {
-    title: '🩺 Mammogram Malignancy Detector',
-    desc: 'Hybrid CNN + YOLOv8 ensemble for full-image breast cancer detection with ROI preprocessing and sliding-window inference.',
-    ss: '/mamo.png',
-    tech: ['TensorFlow', 'Keras', 'OpenCV', 'YOLOv8'],
+    title: '🧠 MindOS',
+    desc: 'AI-powered productivity & discipline OS offering habit tracking, study management, health monitoring, mental wellness support, and personalized AI mentoring for students.',
+    ss: '/mindos.png',
+    tech: ['React', 'TypeScript', 'Tailwind CSS', 'Firebase'],
     live: '#',
-    code: 'https://github.com/onkar3333/mammo-detector'
+    code: 'https://github.com/Onkar3333/MindOS'
   },
   {
-  title: '🧠 Mental Health Analyzer',
-  desc: 'NLP-based system that analyzes user text to detect signs of anxiety, stress, and depression using sentiment analysis and transformer models.',
-  ss: '/mentalhealth.jpg',
-  tech: ['Python', 'Transformers', 'NLTK', 'scikit-learn'],
-  live: 'https://mental-health-analyzer.streamlit.app/',
-  code: 'https://github.com/onkar3333/Mental-Health-Analyzer'
+    title: ' KRISHIAI',
+    desc: 'AI-powered smart farming platform with crop advisory, disease detection, market prices, weather insights, and multi-language support for Indian farmers.',
+    ss: '/krishiai.png',
+    tech: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'Recharts'],
+    live: 'https://id-preview--9f607796-da4f-42ff-bb52-5fcffda94fa6.lovable.app/',
+    code: 'https://github.com/Onkar3333/KrushiMitra'
   },
   {
-    title: '🤖 Indian Sign Language Interpreter',
+    title: '🌿 PLANTCARE',
+    desc: 'AI-powered plant health app with disease detection, Indian plant library, weather-based care tips, and community support.',
+    ss: '/plantcare.png',
+    tech: ['React', 'Supabase', 'Tailwind CSS', 'PWA', 'Framer Motion'],
+    live: 'https://id-preview--f33802db-a307-4e5c-a7d4-a214bf84fbbb.lovable.app/',
+    code: 'https://github.com/Onkar3333/plantvision-ai'
+  },
+  {
+    title: '🤝 HELPLINK',
+    desc: 'Community-powered PWA connecting help seekers with volunteers across 10 categories — from blood donation to disaster relief.',
+    ss: '/helplink.png',
+    tech: ['React', 'Supabase', 'Tailwind CSS', 'PWA'],
+    live: 'https://preview--help-reach-connect.lovable.app/',
+    code: 'https://github.com/Onkar3333/help-reach-connect'
+  },
+  // {
+  //   title: '🩺 Mammogram Malignancy Detector',
+  //   desc: 'Hybrid CNN + YOLOv8 ensemble for full-image breast cancer detection with ROI preprocessing and sliding-window inference.',
+  //   ss: '/mamo.png',
+  //   tech: ['TensorFlow', 'Keras', 'OpenCV', 'YOLOv8'],
+  //   live: '#',
+  //   code: 'https://github.com/onkar3333/mammo-detector'
+  // },
+  // {
+  //   title: '🧠 Mental Health Analyzer',
+  //   desc: 'NLP-based system that analyzes user text to detect signs of anxiety, stress, and depression using sentiment analysis and transformer models.',
+  //   ss: '/mentalhealth.jpg',
+  //   tech: ['Python', 'Transformers', 'NLTK', 'scikit-learn'],
+  //   live: 'https://mental-health-analyzer.streamlit.app/',
+  //   code: 'https://github.com/onkar3333/Mental-Health-Analyzer'
+  // },
+  {
+    title: '🤖 AI Virtual Keyboard',
     desc: 'Real-time gesture recognition and translation using Mediapipe + TensorFlow, enabling live sign-to-text interpretation.',
     ss: '/ISL.png',
     tech: ['Mediapipe', 'TensorFlow', 'React', 'Flask'],
     live: '#',
-    code: 'https://github.com/onkar3333/ISL-Interpreter'
+    code: 'https://github.com/Onkar3333/AI-Virtual-Keyboard'
   },
   {
-  title: '💼 Portfolio Website',
-  desc: 'A modern and responsive portfolio built with React and Framer Motion, showcasing projects, skills, and achievements with smooth animations and interactive UI.',
-  ss: '/portfolio.jpg',
-  tech: ['React', 'Framer Motion', 'Tailwind CSS'],
-  live: '#',
-  code: 'https://github.com/onkar3333/Onkar-Portfolio'
-  },
-  {
-    title: '💬 DocuChat – Gemini AI Chatbot',
-    desc: 'An intelligent document interaction app powered by Gemini API that understands and answers queries from uploaded PDFs.',
-    ss: '/Docuchat.png',
-    tech: ['Gemini API', 'LangChain', 'Python', 'Streamlit'],
-    live: 'https://docuchat-chatbot.streamlit.app/',
-    code: 'https://github.com/onkar3333/Docuchat-Chatbot'
-  },
-  {
-    title: '📊 ProfileX – Data Profiler',
-    desc: 'Smart data profiling and preprocessing web app for CSV datasets — feature summary, missing value handling, and visualization.',
-    ss: '/ProfileX.png',
-    tech: ['Streamlit', 'Pandas', 'Plotly'],
-    live: 'https://profilex.streamlit.app/',
-    code: 'https://github.com/onkar3333/ProfileX'
-  },
-  {
-    title: '🧬 Breast Cancer Prediction',
-    desc: 'ML pipeline using SVC, Random Forest, and XGBoost with SMOTE for imbalanced dataset handling and model optimization.',
-    ss: '/breastpred.jpg',
-    tech: ['scikit-learn', 'XGBoost', 'Pandas'],
+    title: '💼 Portfolio Website',
+    desc: 'A modern and responsive portfolio built with React and Framer Motion, showcasing projects, skills, and achievements with smooth animations and interactive UI.',
+    ss: '/portfolio.jpg',
+    tech: ['React', 'Framer Motion', 'Tailwind CSS'],
     live: '#',
-    code: 'https://github.com/onkar3333/BreastCancerPrediction'
-  }
+    code: 'https://github.com/Onkar3333/Onkar-Portfolio-main'
+  },
+  // {
+  //   title: '💬 DocuChat – Gemini AI Chatbot',
+  //   desc: 'An intelligent document interaction app powered by Gemini API that understands and answers queries from uploaded PDFs.',
+  //   ss: '/Docuchat.png',
+  //   tech: ['Gemini API', 'LangChain', 'Python', 'Streamlit'],
+  //   live: 'https://docuchat-chatbot.streamlit.app/',
+  //   code: 'https://github.com/onkar3333/Docuchat-Chatbot'
+  // },
+  {
+    title: '📊 DigiDiploma',
+    desc: 'AI-enabled diploma learning platform offering semester-wise notes, important questions, exam-focused content, and smart revision tools for students.',
+    ss: '/ProfileX.png',
+    tech: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'Recharts'],
+    live: 'https://www.digidiploma.in/',
+    code: 'https://github.com/onkar3333/digidiploma'
+  },
+  // {
+  //   title: '🧬 Breast Cancer Prediction',
+  //   desc: 'ML pipeline using SVC, Random Forest, and XGBoost with SMOTE for imbalanced dataset handling and model optimization.',
+  //   ss: '/breastpred.jpg',
+  //   tech: ['scikit-learn', 'XGBoost', 'Pandas'],
+  //   live: '#',
+  //   code: 'https://github.com/onkar3333/BreastCancerPrediction'
+  // }
 ]
 
 export default function Projects() {
