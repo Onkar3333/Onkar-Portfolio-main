@@ -28,6 +28,13 @@ const CERTS = {
   ],
   other: [
     {
+      title: "Student Training Program 2026",
+      org: "NCRA–TIFR (GMRT)",
+      date: "Jan – Apr 2026",
+      img: "/certs/ncra-tifr-stp-2026.jpg",
+      link: "/certs/ncra-tifr-stp-2026.jpg",
+    },
+    {
       title: "NSS Slogan Competition (1st Prize)",
       org: "National Statistics Office",
       date: "2025",

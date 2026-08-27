@@ -68,7 +68,7 @@ Now open [http://localhost:3000](http://localhost:3000) in your browser 🚀
 If you’d like to collaborate or just say hi 👋, feel free to reach out!
 
 * 📧 **Email:** [onkarbansode77@gmail.com](mailto:onkarbansode77@gmail.com)
-* 💼 **LinkedIn:** [linkedin.com/in/onkar-bansode](https://www.linkedin.com/in/onkar-bansode/)
+* 💼 **LinkedIn:** [linkedin.com/in/onkarbansode](https://www.linkedin.com/in/onkarbansode/)
 
 ---
 

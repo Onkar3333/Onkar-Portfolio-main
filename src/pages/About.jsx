@@ -56,19 +56,71 @@ const AboutMe = () => {
             marginBottom: "1rem",
           }}
         >
-          Hi, I'm <strong>Onkar Bansode</strong> — a <strong>Java Full Stack and Python developer</strong> specializing in scalable web applications. I'm skilled in React.js, Node.js, Laravel, Flask, SQL, MongoDB, REST API, Agile methodologies, debugging, testing, and the full software development life cycle (SDLC).
+          Computer Engineering Graduate passionate about building intelligent software powered by AI.
         </p>
 
-        <p style={{ fontSize: "1.1rem", color: "rgba(255,255,255,0.8)" }}>
-          Beyond code, I enjoy exploring modern web technologies, experimenting with full-stack solutions, and finding ways to blend{" "}
-          <strong>creative problem-solving</strong> with{" "}
-          <strong>technical excellence</strong>. My goal is to build scalable applications
-          that not only perform efficiently — but also provide exceptional user experiences.
+        <p
+          style={{
+            fontSize: "1.1rem",
+            color: "rgba(255,255,255,0.8)",
+            marginBottom: "1rem",
+          }}
+        >
+          I specialize in{" "}
+          <strong>Artificial Intelligence</strong>, <strong>Machine Learning</strong>,{" "}
+          <strong>Python</strong>, <strong>Generative AI</strong>,{" "}
+          <strong>Computer Vision</strong>, and <strong>Full-Stack Development</strong>.
+          Currently expanding my expertise in LLMs, RAG, LangChain, and scalable AI systems.
         </p>
 
-        <p style={{ fontSize: "1.1rem", color: "rgba(255,255,255,0.8)" }}>
-          Currently pursuing my 4th year B.E in Computer Engineering with a strong foundation in both frontend and backend development. Passionate about creating robust, maintainable, and high-performance web applications that solve real-world problems.
+        <p
+          style={{
+            fontSize: "1.1rem",
+            color: "rgba(255,255,255,0.8)",
+            marginBottom: "1rem",
+          }}
+        >
+          During my internship at <strong>NCRA–TIFR (GMRT)</strong>, I worked on Python-based
+          signal processing and automation for scientific data analysis. I also co-authored
+          and presented a peer-reviewed research paper on a{" "}
+          <strong>Multi-Organ Machine Learning Framework</strong> at an international conference.
         </p>
+
+        <p
+          style={{
+            fontSize: "1.1rem",
+            color: "rgba(255,255,255,0.8)",
+            marginBottom: "1.5rem",
+          }}
+        >
+          I&apos;m driven by solving real-world problems through technology and continuously
+          learning modern software engineering and AI practices.
+        </p>
+
+        <p
+          style={{
+            fontSize: "1.1rem",
+            color: "rgba(255,255,255,0.85)",
+            marginBottom: "0.6rem",
+          }}
+        >
+          📩 Open to opportunities in:
+        </p>
+        <ul
+          style={{
+            fontSize: "1.1rem",
+            color: "rgba(255,255,255,0.8)",
+            margin: 0,
+            paddingLeft: "1.4rem",
+            lineHeight: 1.9,
+          }}
+        >
+          <li>AI Engineer</li>
+          <li>Machine Learning Engineer</li>
+          <li>Software Engineer</li>
+          <li>Python Developer</li>
+          <li>Generative AI Engineer</li>
+        </ul>
 
         {/* --- Education Section --- */}
         <motion.div

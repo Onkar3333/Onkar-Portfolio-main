@@ -68,7 +68,7 @@ export default function Contact() {
 
   const quickLinks = [
     { img: githubLogo, title: "GitHub", link: "https://github.com/onkar3333" },
-    { img: linkedinLogo, title: "LinkedIn", link: "https://www.linkedin.com/in/onkar-bansode/" },
+    { img: linkedinLogo, title: "LinkedIn", link: "https://www.linkedin.com/in/onkarbansode/" },
     { img: gmailLogo, title: "Email", link: "mailto:onkarbansode77@gmail.com" },
     { img: whatsappLogo, title: "WhatsApp", link: "https://wa.me/+918956446484" },
     { img: instagramLogo, title: "Instagram", link: "https://www.instagram.com/onkar_bansode07/" },

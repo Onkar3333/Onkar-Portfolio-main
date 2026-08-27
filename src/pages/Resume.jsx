@@ -200,7 +200,7 @@ export default function Resume() {
           {[
             { name: "🏆 LeetCode", link: "https://leetcode.com/u/onkar_bansode/" },
             { name: "💻 GitHub", link: "https://github.com/onkar3333" },
-            { name: "💼 LinkedIn", link: "https://www.linkedin.com/in/onkar-bansode/" },
+            { name: "💼 LinkedIn", link: "https://www.linkedin.com/in/onkarbansode/" },
           ].map((site) => (
             <motion.a
               key={site.name}
@@ -233,7 +233,7 @@ export default function Resume() {
           }}
         >
           <iframe
-            src="/Onkar_Resume.pdf"
+            src="/Onkar_AIML_Resume.pdf"
             title="Onkar Bansode Resume"
             style={{
               width: "100%",
@@ -246,8 +246,8 @@ export default function Resume() {
 
         {/* Download Button */}
         <motion.a
-          href="/resume.pdf"
-          download
+          href="/Onkar_AIML_Resume.pdf"
+          download="Onkar_AIML_Resume.pdf"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           style={{
